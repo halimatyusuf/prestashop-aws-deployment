@@ -11,6 +11,39 @@ This project documents my assessment deployment of PrestaShop, an open-source e-
 - Amazon RDS MySQL
 - PrestaShop
 
+## AWS Architecture
+
+The PrestaShop application was deployed using AWS cloud infrastructure.
+
+### Architecture Components
+
+- **Amazon EC2:** Hosted the Ubuntu Linux server.
+- **Apache:** Served the PrestaShop web application.
+- **PHP:** Provided the application runtime.
+- **Amazon RDS (MySQL):** Provided the database for the application.
+- **AWS Security Groups:** Controlled network access to the infrastructure.
+
+### How the Components Work Together
+
+1. A user accesses the PrestaShop storefront through the EC2 instance's public IP address.
+2. Apache receives the HTTP request and serves the PHP-based PrestaShop application.
+3. PrestaShop communicates with the MySQL database hosted on Amazon RDS.
+4. Amazon RDS stores and retrieves application data.
+5. The application returns the requested page to the user.
+
+### Architecture Flow
+
+User Browser
+    |
+    v
+Amazon EC2 (Ubuntu Linux)
+    |
+    v
+Apache + PHP + PrestaShop
+    |
+    v
+Amazon RDS (MySQL)
+
 ## Deployment Process
 1. Provisioned an Ubuntu EC2 instance.
 2. Configured the Apache web server and PHP environment.
