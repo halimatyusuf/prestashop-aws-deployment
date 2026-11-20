@@ -31,3 +31,19 @@ Deployment screenshots and supporting documentation will be added here.
 
 ## Author
 Cloud Engineering Portfolio Project
+## Project Screenshots
+
+### 1. PrestaShop Storefront
+![PrestaShop Storefront](screenshots/01_PrestaShop_Public_Storefront.png)
+
+### 2. PrestaShop Admin Dashboard
+![PrestaShop Admin Dashboard](screenshots/02_PrestaShop_Admin_Dashboard.png)
+
+### 3. AWS EC2 Instance
+![AWS EC2 Instance](screenshots/03_EC2_Running_Public_IP.png)
+
+### 4. Amazon RDS Database
+![Amazon RDS Database](screenshots/04_RDS_Available.png)
+
+### 5. MySQL Database Connectivity
+![MySQL RDS Connection](screenshots/05_Terminal_MySQL_RDS_Connected.png)
