@@ -27,7 +27,7 @@ This project documents my assessment deployment of PrestaShop, an open-source e-
 This project strengthened my understanding of cloud infrastructure, Linux server administration, application deployment, database connectivity, and troubleshooting.
 
 ## Project Evidence
-Deployment screenshots and supporting documentation will be added here.
+The screenshots below document the PrestaShop application deployment on AWS, including the public storefront, administration dashboard, EC2 instance, Amazon RDS database, and MySQL connectivity verification.
 
 ## Author
 Cloud Engineering Portfolio Project
